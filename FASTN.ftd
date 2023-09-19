@@ -1,0 +1,73 @@
+-- import: fastn
+
+-- fastn.package: amitu.github.io/dotcom
+favicon: images/favicon.png
+
+-- fastn.dependency: fifthtry.github.io/doc-site as ds
+-- fastn.dependency: fifthtry.github.io/winter-cs
+-- fastn.dependency: fifthtry.github.io/raleway-typography
+-- fastn.dependency: fifthtry.github.io/dark-mode-switcher
+-- fastn.dependency: fastn-stack.github.io/media
+-- fastn.dependency: fifthtry.github.io/bling
+-- fastn.dependency: harshdoesdev.github.io/hacktree-ui as hacktree
+
+-- fastn.auto-import: ds
+-- fastn.auto-import: amitu.github.io/dotcom/my-ds
+
+-- fastn.sitemap:
+
+# Journal: /journal/23-05/
+
+- May, 2023: /journal/23-05/
+- Apr, 2023: /journal/23-04/
+
+# Tech: /git/attributes/
+
+## General: /git/attributes/
+
+- Git Attributes: /git/attributes/
+- Github Actions: /github/actions/
+- Supabase Functions: /supabase/functions/
+- Supabase ❤️ `fastn`: /supabase/fastn/
+- SRS: /srs/
+  document: misc/srs.ftd
+- LLVM: /llvm/
+  document: misc/llvm.ftd
+- Devops:
+  - fibreplane: /fibreplane/
+    document: devops/fibreplane.ftd
+  - tll-sh: /ttl-sh/
+    document: devops/ttl-sh.ftd
+  - elephant-sql: /elephant-sql/
+    document: pg/elephant-sql.ftd
+  - steampipe: /steampipe/
+    document: devops/steampipe.ftd
+  - steampipe: /nix/
+    document: devops/nix.ftd
+- Python:
+  - `doit`: /doit/
+    document: python/doit.ftd
+  - `snakemake`: /snakemake/
+    document: python/snakemake.ftd
+  - `poetry`: /poetry/
+    document: python/poetry.ftd
+- Rust:
+  - workspace dependencies: /rust/workspace-dependencies/
+  - sharing package data: /rust/workspace-package/
+  - `typetag`: /typetag/
+    document: rust/typetag.ftd
+- Wasm: /wasm/
+  - Fastly: /fastly/
+    document: wasm/fastly.ftd
+  - Shopify: /shopify/
+    document: wasm/shopify.ftd
+  - `fp-bindgen`: /fp-bindgen/
+    document: wasm/fp-bindgen.ftd
+  - Spidermonkey: /spidermonkey/
+    document: wasm/spidermonkey.ftd
+  - WAGI: /wagi/
+    document: wasm/wagi.ftd
+  - wasi: /wasi/
+    document: wasm/wasi.ftd
+  - Wizer: /wizer/
+    document: wasm/wizer.ftd

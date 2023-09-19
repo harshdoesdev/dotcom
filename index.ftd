@@ -1,0 +1,341 @@
+-- import: amitu.github.io/dotcom/assets
+-- import: fifthtry.github.io/winter-cs
+
+-- my-ds.page:
+full-width: true
+document-title: AmitU's blog
+document-description: CEO and Founder of FifthTry.com. Creator of fastn framework.
+
+-- me:
+
+-- content:
+
+-- reading-lists:
+
+-- footer:
+
+-- end: my-ds.page
+
+
+
+
+
+-- component me:
+
+-- ftd.column:
+width: fill-container
+
+-- ftd.row:
+width: fill-container
+padding-horizontal.px: 100
+padding-vertical.px: 40
+spacing.fixed.px: 40
+if: { ftd.device != "mobile" }
+
+-- ftd.image:
+src: $assets.files.images.amitu-3.png
+width.fixed.percent: 35
+shadow: $shadow
+
+-- ftd.column:
+width: fill-container
+spacing.fixed.em: 3.5
+
+-- ftd.text:
+role: $inherited.types.heading-hero
+color: $inherited.colors.text-strong
+
+Hi, MY NAME IS
+
+Amit Upadhyay
+
+-- ds.h3: CEO and Founder of [FifthTry.com](https://www.fifthtry.com/). Creator of [fastn](https://fastn.io/) framework.
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+
+
+
+-- ftd.column:
+width: fill-container
+spacing.fixed.px: 40
+if: { ftd.device == "mobile" }
+align-content: center
+
+-- ftd.image:
+src: $assets.files.images.amitu-1.jpg
+width: fill-container
+
+-- ftd.column:
+width: fill-container
+spacing.fixed.em: 2.5
+align-content: center
+
+-- ftd.text:
+role: $inherited.types.heading-hero
+color: $inherited.colors.text-strong
+text-align: center
+
+Hi, MY NAME IS
+
+Amit Upadhayay
+
+-- ftd.text:
+role: $inherited.types.heading-small
+color: $inherited.colors.text-strong
+margin-bottom.rem: 0.5
+width: fill-container
+padding-top.em: 0.17
+region: h3
+text-align: center
+
+CEO and Founder of [FifthTry.com](https://www.fifthtry.com/). Creator of
+[fastn](https://fastn.io/) framework.
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+
+
+-- end: ftd.column
+
+-- end: me
+
+
+
+
+
+-- component content:
+
+-- ftd.column:
+width: fill-container
+
+-- ftd.column:
+width: fill-container
+background.solid: $inherited.colors.background.step-2
+padding-vertical.px: 25
+spacing.fixed.px: 15
+role: $inherited.types.copy-regular
+color: $inherited.colors.text
+if: { ftd.device != "mobile" }
+
+-- ftd.row:
+width: fill-container
+spacing: space-between
+padding-horizontal.px: 100
+
+-- ftd.text:
+max-width.fixed.px: 340
+
+Take up one idea. Make that one idea your life.
+
+Think of it, dream of it, [live on that idea](http://www.paulgraham.com/top.html).
+
+Let the brain, muscles, nerves, every part of your body, be full of that idea,
+and just leave every other idea alone.
+
+This is the way to success.
+
+– Swami Vivekananda
+
+-- ftd.image:
+width.fixed.percent: 38
+src: $assets.files.images.startup.jpg
+shadow: $content-shadow
+
+-- end: ftd.row
+
+
+-- ftd.text:
+background.solid: $inherited.colors.background.step-1
+padding-vertical.px: 20
+width: fill-container
+padding-horizontal.px: 100
+
+My name is Ozymandias, look at on my works ye mighty and despair.
+
+-- ftd.text:
+width: fill-container
+padding-horizontal.px: 100
+
+First, master fundamentals. Then, play infinite games. — James Stuber
+
+-- end: ftd.column
+
+
+
+
+
+
+-- ftd.column:
+width: fill-container
+background.solid: $inherited.colors.background.step-2
+padding-vertical.px: 25
+spacing.fixed.px: 15
+role: $inherited.types.copy-regular
+color: $inherited.colors.text
+if: { ftd.device == "mobile" }
+
+
+-- ftd.image:
+width: fill-container
+src: $assets.files.images.startup.jpg
+
+-- ftd.text:
+padding-horizontal.px: 20
+
+Take up one idea. Make that one idea your life.
+
+Think of it, dream of it, [live on that idea](http://www.paulgraham.com/top.html).
+
+Let the brain, muscles, nerves, every part of your body, be full of that idea,
+and just leave every other idea alone.
+
+This is the way to success.
+
+– Swami Vivekananda
+
+
+-- ftd.text:
+background.solid: $inherited.colors.background.step-1
+padding-vertical.px: 20
+width: fill-container
+padding-horizontal.px: 20
+
+My name is Ozymandias, look at on my works ye mighty and despair.
+
+-- ftd.text:
+width: fill-container
+padding-horizontal.px: 20
+
+First, master fundamentals. Then, play infinite games. — James Stuber
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+
+-- end: content
+
+
+
+
+
+
+
+-- component reading-lists:
+
+
+-- ftd.column:
+width: fill-container
+
+-- ftd.row:
+padding-horizontal.px: 100
+padding-vertical.px: 40
+spacing.fixed.px: 40
+if: { ftd.device != "mobile" }
+
+-- ds.h1: Let's dive in
+
+I intend to write several articles on this site about software development,
+management, business, and the Internet. You can go to [Tech](git/attributes/)
+to find them.
+
+-- ftd.column:
+width.fixed.percent: 30
+align-self: center
+
+-- ftd.text: Start Reading
+padding.px: 20
+role: $inherited.types.copy-regular
+color: $inherited.colors.cta-primary.text
+background.solid: $inherited.colors.cta-primary.base
+link: git/attributes/
+align-self: end
+shadow: $content-shadow
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+
+
+
+
+-- ftd.column:
+padding-horizontal.px: 20
+padding-vertical.px: 40
+spacing.fixed.px: 40
+if: { ftd.device == "mobile" }
+
+-- ds.h1: Let's dive in
+
+I intend to write several articles on this site about software development,
+management, business, and the Internet. You can go to [Tech](git/attributes/)
+to find them.
+
+-- ftd.text: Start Reading
+padding.px: 20
+role: $inherited.types.copy-regular
+color: $inherited.colors.cta-primary.text
+background.solid: $inherited.colors.cta-primary.base
+link: git/attributes/
+align-self: center
+
+
+-- end: ftd.column
+
+
+-- end: ftd.column
+
+
+-- end: reading-lists
+
+
+
+
+
+-- ftd.shadow shadow:
+y-offset.px: 14
+x-offset.px: -14
+spread.px: 2
+blur.px: 4
+color: $winter-cs.main.background.step-1
+
+
+
+-- ftd.shadow content-shadow:
+y-offset.px: -7
+x-offset.px: 7
+spread.px: 2
+blur.px: 4
+color: $winter-cs.main.background.step-1
+
+
+
+
+
+-- component footer:
+
+-- ftd.column:
+width: fill-container
+background.solid: $inherited.colors.background.step-1
+padding-vertical.px: 25
+role: $inherited.types.copy-regular
+color: $inherited.colors.text
+align-content: center
+
+-- ftd.text: @ FifthTry
+
+-- ftd.text: Join our [Discord](https://discord.gg/xN3uD8P7WA)
+
+-- ftd.text: Twitter: [@FifthTryHQ](https://twitter.com/fifthtryhq)
+
+
+
+-- end: ftd.column
+
+-- end: footer
